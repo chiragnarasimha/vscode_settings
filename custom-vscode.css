@@ -1,9 +1,3 @@
-/* Code comment style */
-.mtk3 {
-  /* font-family: 'Monaspace Radon', monospace !important; */
-  color: hsl(174, 100%, 27%) !important;
-}
-
 .line-numbers {
   position: relative !important;
   width: 35px !important;
@@ -17,16 +11,6 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75) !important;
   top: -6px !important;
 }
-
-/* Toolbars when tabs are enabled. */
-/* .monaco-workbench
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title
-  .editor-actions {
-  display: none !important;
-} */
 
 /* Side bar */
 .part.sidebar {
@@ -47,16 +31,9 @@
   opacity: 1 !important;
 }
 
-/* // File explorer action buttons
-.monaco-workbench .part.sidebar .title-actions .actions-container {
-  display: none;
-} */
-
 /* File Explorer Item Label */
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
-  /* font-family: 'Geist Mono', monospace !important; */
-  font-size: 14px !important;
   font-weight: 400 !important;
   color: #fff !important;
 }
@@ -74,6 +51,7 @@
   align-items: center !important;
   justify-items: center !important;
 }
+
 .composite.title h2 {
   font-weight: bold !important;
   font-size: 12px !important;
@@ -91,15 +69,10 @@
 /* Scroll Bar */
 .slider {
   position: absolute !important;
-  right: 5px !important;
-  width: 5px !important;
+  right: 1px !important;
+  width: 1px !important;
   background: #bc9abc !important;
   left: auto !important;
-}
-
-.codicon-toolbar-more,
-.codicon-word-wrap {
-  display: block !important;
 }
 
 /* Tooltip box style */
@@ -113,51 +86,6 @@
   border: none !important;
 }
 
-/* Project title's style at the top. */
-.monaco-workbench
-  .part.titlebar
-  > .titlebar-container
-  > .titlebar-center
-  > .window-title
-  > .command-center
-  .action-item.command-center-center {
-  /* border: none !important; */
-  background: transparent !important;
-}
-
-/* Project Title */
-.titlebar-left {
-  justify-content: flex-start !important;
-  flex-grow: 0 !important;
-  width: auto !important;
-}
-
-/* Search Label */
-/* .search-label {
-  /* font-family: 'Geist Mono' !important; 
-  font-size: 14px !important;
-  color: #fff;
-  display: block;
-} */
-
-/* Search icon */
-/* .search-icon {
-  display: none !important;
-} */
-
-/* .codicon-search::before {
-  display: none !important;
-} */
-
-/* .codicon-arrow-right,
-.codicon-arrow-left {
-  display: none !important;
-} */
-
-/* .titlebar-right > * {
-  display: none !important;
-} */
-
 /* Command Palette */
 .quick-input-widget {
   transform: translateY(-50%) !important;
@@ -169,7 +97,7 @@
   border-radius: 20px !important;
 }
 
-/* Remove background for lists */
+/* Remove background for lists in Command Palette */
 .monaco-list-rows {
   background: transparent !important;
 }
@@ -179,29 +107,12 @@
   background: rgba(0, 0, 0, 0.2) !important;
 }
 
-.notifications-toasts .monaco-list-row:hover {
-  background: none !important;
-}
-
-/* .monaco-list-row.focused {
-    background-color: rgb(181 198 228 / 25%) !important;
-} */
-
-/* .synthetic-focus {
-    outline-color: rgba(50, 50, 50, 1) !important;
-} */
-
-/* .quick-input-widget .monaco-label {
-    font-size: 11px !important;
-} */
-
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
   border-radius: 12px !important;
   padding: 8px !important;
   border: none !important;
   background-color: rgba(34, 34, 34, 0.4) !important;
-  /* font-family: 'Geist Mono' !important; */
   font-size: 14px !important;
   margin-bottom: 16px !important;
 }
@@ -220,11 +131,6 @@
 .monaco-inputbox input::placeholder {
   color: rgba(255, 255, 255, 0.3) !important;
 }
-
-/* .monaco-workbench label {
-    color: #fff !important;
-    font-size: 14px !important;
-} */
 
 /* Container that holds the VS Code home icon. */
 .editor-group-watermark {
