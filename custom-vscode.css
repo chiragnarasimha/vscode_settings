@@ -121,7 +121,7 @@
   > .window-title
   > .command-center
   .action-item.command-center-center {
-  border: none !important;
+  /* border: none !important; */
   background: transparent !important;
 }
 
